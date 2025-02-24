@@ -1,28 +1,31 @@
 # Brain-Tumor-Classification
-brain_tumor_project/
+<pre>
+Brain-Tumor-Classification/
 │
 ├── data/
-│   ├── Training/          # Vos données d'entraînement actuelles
+│   ├── Training/         
 │   │   ├── glioma/
 │   │   ├── meningioma/
 │   │   ├── notumor/
 │   │   └── pituitary/
 │   │
-│   └── Testing/           # Vos données de test actuelles
+│   └── Testing/           
 │       ├── glioma/
 │       ├── meningioma/
 │       ├── notumor/
 │       └── pituitary/
 │
+│── app/  
+│   ├── app.py (Flask or Streamlit)  
 ├── notebooks/
-│   ├── 01_exploration.ipynb        # Analyse exploratoire des données
-│   ├── 02_preprocessing.ipynb      # Prétraitement des images
-│   ├── 03_model_training.ipynb     # Entraînement du modèle
-│   └── 04_evaluation.ipynb         # Évaluation du modèle
+│   ├── 1_data_exploration.ipynb    # Exploratory data analysis
+│   ├── 2_preprocessing.ipynb       # Image preprocessing
+│   ├── 3_model_training.ipynb      # Model training
+│   └── 4_model_evaluation.ipynb    # Model evaluation
 │
-├── saved_models/                   # Pour sauvegarder vos modèles entraînés
-│   └── best_model.h5
+├── smodels/                 
+│   └── MyModel.h5(.keras) # The best model after training
 │
-└── results/                        # Pour sauvegarder vos résultats
-    ├── plots/                      # Graphiques et visualisations
-    └── metrics/                    # Métriques d'évaluation
+│── requirements.txt  
+│── README.md  
+</pre>
